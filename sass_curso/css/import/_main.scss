@@ -1,0 +1,26 @@
+/* _main.scss */
+
+header {
+    padding: 50px;
+    h1 {
+        color: #2C5CFF;
+    }
+    p {
+        font-size: 18px;
+        color: #C4C2C6;
+    }
+    ul {
+        display: block;
+        line-height: 1.4;
+        li {
+            margin: 5px;
+            display: inline;
+            a {
+                text-decoration: none;
+                &:hover {
+                    color: red;
+                }
+            }
+        }
+    }
+}

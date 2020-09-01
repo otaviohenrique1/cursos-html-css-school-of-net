@@ -1,0 +1,19 @@
+@import 'flatcolors';
+
+body {
+    color: $cloud;
+    background-color: darken($carrot, 10);
+
+    h1, p {
+        margin: 0;
+        padding: 0;
+    }
+    
+    h1 {
+        background-color: $carrot;
+    }
+    
+    p {
+        background-color: lighten($carrot, 10);
+    }
+}

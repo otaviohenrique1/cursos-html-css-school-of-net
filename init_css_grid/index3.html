@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            #main {
+                display: grid;
+                grid-template-areas: 
+                    "nav nav"
+                    "sidebar content"
+                    "footer footer";
+                gap: 5px;
+                grid-template-columns: 25% 75%;
+            }
+
+            .grid-item {
+                background-color: #cccccc;
+                padding: 10px;
+            }
+
+            .nav {
+                grid-area: nav;
+                display: grid;
+                justify-content: center;
+            }
+
+            .sidebar {
+                grid-area: sidebar;
+            }
+
+            .content {
+                grid-area: content;
+            }
+
+            .footer {
+                grid-area: footer;
+                display: grid;
+            }
+
+            /* .footer p:first-child {
+                justify-self: start;
+                grid-row: 1;
+            } */
+
+            /* .footer p:last-child {
+                justify-self: end;
+                grid-row: 1;
+            } */
+
+            .footer .copy {
+                justify-self: start;
+                grid-row: 1;
+            }
+
+            .footer .year {
+                justify-self: end;
+                grid-row: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <main id="main">
+            <nav class="grid-item nav">
+                <h2>SON</h2>
+            </nav>
+            <aside class="grid-item sidebar"></aside>
+            <section class="grid-item content"></section>
+            <footer class="grid-item footer">
+                <p class="copy">&copy; Copyright</p>
+                <p class="year">2020</p>
+            </footer>
+        </main>
+    </body>
+</html>

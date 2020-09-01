@@ -1,0 +1,53 @@
+// Variaveis
+@font_size_header: 20px;
+@color_text_header: #4478FF;
+@font_size_desc_header: 14px;
+
+// Mixin
+.nav-bar(@color_back: #FF5438, @color_text: #FFF, @size_title: 30px, @size_desc: 12px) when (@size_title > 16px) , (@size_desc < 15px) {
+    // when -> if
+    // , -> ou
+    // and -> e
+    width: 100%;
+    height: 80px;
+    background-color: lighten(@color_back, 10%);
+    position: relative;
+    min-height: 50px;
+    // margin-bottom: ceil(3.1px); // round -> arredonda valor para cima
+    margin-bottom: round(19.6px/ 4px); // round -> arredonda valor
+    // margin-bottom: floor(2.6px); // round ->retira a parte do numero 
+    border: 1px solid @color_back + #444;
+    color: @color_text;
+    h1 {
+        position: relative;
+        margin-top: 14px;
+        margin-left: 20px;
+        margin-bottom: 0;
+        font-size: @size_title;
+    }
+    p {
+        position: relative;
+        color: @color_text;
+        margin-top: 0;
+        margin-left: 30px;
+        font-size: @size_desc;
+    }
+}
+
+.nav1 {
+    .nav-bar(darken(#3437FF, 10%),  #F3F3FF, 30px, 15px);
+}
+
+.nav2 {
+    .nav-bar(#FF8B06, #FBFFB4, 40px, 16px);
+}
+
+// .title-nav {
+//     font-size: @font_size_header;
+//     h1 {
+//         color: @color_text_header;
+//     }
+//     P {
+//         font-size: @font_size_desc_header;
+//     }
+// }

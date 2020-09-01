@@ -1,0 +1,107 @@
+@import "colors.css";
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+div {
+    box-sizing: border-box;
+    float: left;
+    width: 48%;
+    margin: 1%;
+    padding: 30px;
+    text-align: center;
+    /* background-color: rgb(35, 35, 35); */
+    color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+#element1 {
+    background-color: var(--turqueoise);
+}
+
+#element2 {
+    background-color: var(--emerald);
+}
+
+#element3 {
+    background-color: var(--peter-river);
+}
+
+#element4 {
+    background-color: var(--amethyst);
+}
+
+#element5 {
+    background-color: var(--wet-asphalt);
+}
+
+#element6 {
+    background-color: var(--sun-flower);
+}
+
+#element7 {
+    background-color: var(--carrot);
+}
+
+#element8 {
+    background-color: var(--alizarin);
+}
+
+#element9 {
+    background-color: var(--clouds);
+    color: #000000;
+}
+
+#element10 {
+    background-color: var(--concrete);
+}
+
+#element1:hover {
+    background-color: var(--green-sea);
+}
+
+#element2:hover {
+    background-color: var(--nephritis);
+}
+
+#element3:hover {
+    background-color: var(--belize-hole);
+}
+
+#element4:hover {
+    background-color: var(--wisteria);
+}
+
+#element5:hover {
+    background-color: var(--midnight-blue);
+}
+
+#element6:hover {
+    background-color: var(--orange);
+}
+
+#element7:hover {
+    background-color: var(--pumpkin);
+}
+
+#element8:hover {
+    background-color: var(--pomegranate);
+}
+
+#element9:hover {
+    background-color: var(--silver);
+    color: #000000;
+}
+
+#element10:hover {
+    background-color: var(--asbestos);
+}

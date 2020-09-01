@@ -1,0 +1,16 @@
+body {
+  color: #ECF0F1;
+  background-color: #bf6516;
+}
+body h1, body p {
+  margin: 0;
+  padding: 0;
+}
+body h1 {
+  background-color: #E67E22;
+}
+body p {
+  background-color: #eb9950;
+}
+
+/*# sourceMappingURL=style.css.map */

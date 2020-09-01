@@ -1,0 +1,113 @@
+.nav1 {
+  width: 100%;
+  height: 80px;
+  background-color: #3437ff;
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 5px;
+  border: 1px solid #4549ff;
+  color: #F3F3FF;
+}
+.nav1 h1 {
+  position: relative;
+  margin-top: 14px;
+  margin-left: 20px;
+  margin-bottom: 0;
+  font-size: 30px;
+}
+.nav1 p {
+  position: relative;
+  color: #F3F3FF;
+  margin-top: 0;
+  margin-left: 30px;
+  font-size: 15px;
+}
+.nav2 {
+  width: 100%;
+  height: 80px;
+  background-color: #ffa339;
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 5px;
+  border: 1px solid #ffcf4a;
+  color: #FBFFB4;
+}
+.nav2 h1 {
+  position: relative;
+  margin-top: 14px;
+  margin-left: 20px;
+  margin-bottom: 0;
+  font-size: 40px;
+}
+.nav2 p {
+  position: relative;
+  color: #FBFFB4;
+  margin-top: 0;
+  margin-left: 30px;
+  font-size: 16px;
+}
+.btn-default {
+  padding: 10px 16px;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #CCC;
+  border-radius: 5%;
+  color: #636363;
+  background-color: #FFF;
+}
+.btn-default:hover {
+  background-color: #cccccc;
+}
+.btn-blue {
+  padding: 10px 16px;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #295FFF;
+  border-radius: 5%;
+  color: #FFF;
+  background-color: #295FFF;
+}
+.btn-blue:hover {
+  background-color: #0031c2;
+}
+.btn-red {
+  padding: 10px 16px;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #FF2407;
+  border-radius: 5%;
+  color: #FFF;
+  background-color: #FF2407;
+}
+.btn-red:hover {
+  background-color: #a01300;
+}
+.btn-orange {
+  padding: 10px 16px;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #FF6D02;
+  border-radius: 5%;
+  color: #FFF;
+  background-color: #FF6D02;
+}
+.btn-orange:hover {
+  background-color: #9b4200;
+}
+.btn-green {
+  padding: 10px 16px;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #5ADA38;
+  border-radius: 5%;
+  color: #FFF;
+  background-color: #5ADA38;
+}
+.btn-green:hover {
+  background-color: #34911b;
+}
